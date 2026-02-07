@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3 Language Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>3-Language Translator</h2>
+
+<textarea id="inputText" placeholder="Enter text here"></textarea>
+
+<br>
+
+<select id="fromLang">
+    <option value="en">English</option>
+    <option value="hi">Hindi</option>
+    <option value="es">Spanish</option>
+</select>
+
+<select id="toLang">
+    <option value="hi">Hindi</option>
+    <option value="en">English</option>
+    <option value="es">Spanish</option>
+</select>
+
+<br><br>
+
+<button onclick="translateText()">Translate</button>
+
+<h3>Output:</h3>
+<textarea id="outputText" readonly></textarea>
+
+<script src="script.js"></script>
+</body>
+</html>
